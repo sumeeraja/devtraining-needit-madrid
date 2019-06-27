@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>sample</internal_name>
+        <label_cache>[{"name":"8d661788-a90d-4992-b918-cc4e128e5d04.table_name","label":"2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"8d661788-a90d-4992-b918-cc4e128e5d04.record","label":"2➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"2c718316-c98f-4dca-a524-d933bd20910a.table_name","label":"2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"2c718316-c98f-4dca-a524-d933bd20910a.record","label":"2➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"Created or Updated_1.current.state","label":"Trigger➛NeedIt Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"x_58872_needit_needit","column_name":"state"}]</label_cache>
+        <master>true</master>
+        <name>sample</name>
+        <outputs/>
+        <parent_flow display_value="sample">c5eb23cddb52330062965c7a48961994</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-26 07:12:27</sys_created_on>
+        <sys_id>4050ff41db92330062965c7a4896191c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sample</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_4050ff41db92330062965c7a4896191c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-26 07:12:27</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=4050ff41db92330062965c7a4896191c"/>
+    <sys_variable_value action="delete_multiple" query="document_key=4050ff41db92330062965c7a4896191c"/>
+</record_update>

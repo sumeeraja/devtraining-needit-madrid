@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>sample</internal_name>
+        <label_cache>[{"name":"6b0fa9f5-2692-477b-af67-18ff83942290.email","label":"2➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference"},{"name":"Created_1.current.state","label":"Trigger➛NeedIt Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"x_58872_needit_needit","column_name":"state"},{"name":"25f6c436-e926-46a3-a5bc-8dcddd0ac2e2.table_name","label":"2➛NeedIt Table","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"table_name","base_type":"table_name"},{"name":"25f6c436-e926-46a3-a5bc-8dcddd0ac2e2.record","label":"2➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"reference","base_type":"reference"},{"name":"36151714-8e94-4027-b9a2-c5eab5697399.approval_state","label":"2➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice"},{"name":"3bd3ea89-7d98-4047-8609-5707c117b399.email","label":"2➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference"},{"name":"eb69c8c5-25cb-489e-946c-ef869449ad06.table_name","label":"2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"eb69c8c5-25cb-489e-946c-ef869449ad06.record","label":"2➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"8d661788-a90d-4992-b918-cc4e128e5d04.table_name","label":"2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"8d661788-a90d-4992-b918-cc4e128e5d04.record","label":"2➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"2c718316-c98f-4dca-a524-d933bd20910a.table_name","label":"2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"2c718316-c98f-4dca-a524-d933bd20910a.record","label":"2➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"Created or Updated_1.current.state","label":"Trigger➛NeedIt Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"x_58872_needit_needit","column_name":"state"}]</label_cache>
+        <latest_snapshot>fe687709db92330062965c7a48961991</latest_snapshot>
+        <master_snapshot>4050ff41db92330062965c7a4896191c</master_snapshot>
+        <name>sample</name>
+        <outputs/>
+        <remote_trigger_id>5050ff41db92330062965c7a4896195c</remote_trigger_id>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-26 06:53:08</sys_created_on>
+        <sys_id>c5eb23cddb52330062965c7a48961994</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_name>sample</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_c5eb23cddb52330062965c7a48961994</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-06-26 07:47:52</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=c5eb23cddb52330062965c7a48961994"/>
+    <sys_variable_value action="delete_multiple" query="document_key=c5eb23cddb52330062965c7a48961994"/>
+</record_update>
